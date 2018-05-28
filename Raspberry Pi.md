@@ -27,6 +27,3 @@ Parenthesized numbers are physical pin numbers.
     GPIO26 (37) (38) GPIO20
        GND (39) (40) GPIO21
     ```
-
-## Reference Link
-- [Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/usage/gpio/README.md)
