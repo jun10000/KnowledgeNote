@@ -9,10 +9,12 @@
   https://yukaobu.wordpress.com/2017/05/01/raspi-update/
 - RaspberryPiのファームウェアをダウングレードする – ネットワークスペシャリストのたまご  
   http://sugarsugar.conf.jp/raspberrypi%E3%81%AE%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B
-+ バックライト - ArchWiki  
+- バックライト - ArchWiki  
   https://wiki.archlinux.jp/index.php/%E3%83%90%E3%83%83%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%88#ACPI
-+ Raspberry Pi 基盤 の LED を 消灯する | 験なきものを思はずは  
+- Raspberry Pi 基盤 の LED を 消灯する | 験なきものを思はずは  
   https://azriton.github.io/2017/09/20/Raspberry-Pi%E5%9F%BA%E7%9B%A4%E3%81%AELED%E3%82%92%E6%B6%88%E7%81%AF%E3%81%99%E3%82%8B/
+- firmware/README at master · raspberrypi/firmware  
+  https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README
 + Systemdで自作スクリプトをデーモン化 | Divide et impera  
   https://glorificatio.org/archives/1965
 + Raspberry Pi -RASPBIAN- のswapを無効化  
