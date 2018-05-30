@@ -56,8 +56,8 @@ Directory (Red LED, Power): `/sys/class/leds/led1/`
 - Current brightness value is written in `brightness`.  
   The value must be **0** or **MaxBrightness**.  
   The changed value **won't** be saved.
-- Current trigger value is written in `trigger`.  
-  The value must be included in the list that the command `cat trigger` output.  
+- Current trigger value is parenthesized in `trigger`.  
+  The value must be included in the `trigger`.  
   The changed value **won't** be saved.
 - To save changed values permanently, edit `/boot/config.txt`.  
   Please refer to [raspberrypi/firmware/boot/overlays/README] page.
