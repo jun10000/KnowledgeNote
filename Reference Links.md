@@ -3,11 +3,11 @@
 ## Raspberry Pi
 - GPIO - Raspberry Pi Documentation  
   https://www.raspberrypi.org/documentation/usage/gpio/README.md
-+ Commits · Hexxeh/rpi-firmware  
+- Commits · Hexxeh/rpi-firmware  
   https://github.com/Hexxeh/rpi-firmware/commits/master
-+ Raspberry Piのアップデート | Yuka Life  
+- Raspberry Piのアップデート | Yuka Life  
   https://yukaobu.wordpress.com/2017/05/01/raspi-update/
-+ RaspberryPiのファームウェアをダウングレードする – ネットワークスペシャリストのたまご  
+- RaspberryPiのファームウェアをダウングレードする – ネットワークスペシャリストのたまご  
   http://sugarsugar.conf.jp/raspberrypi%E3%81%AE%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B
 + バックライト - ArchWiki  
   https://wiki.archlinux.jp/index.php/%E3%83%90%E3%83%83%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%88#ACPI

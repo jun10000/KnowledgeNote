@@ -1,4 +1,5 @@
 # Raspberry Pi
+[Hexxeh/rpi-firmware]: https://github.com/Hexxeh/rpi-firmware/commits/master
 
 ## Pin Layout
 Execute the command `pinout` at Raspberry Pi to show the following result.  
@@ -27,3 +28,21 @@ Parenthesized numbers are physical pin numbers.
     GPIO26 (37) (38) GPIO20
        GND (39) (40) GPIO21
     ```
+
+## Firmware
+If you'd like to see firmware releases, please go to [Hexxeh/rpi-firmware] page.  
+
+### Confirm the current firmware version
+Execute `uname -a`.
+### Update/Downgrade firmware
+Execute following commands.
+```
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+sudo rpi-update <HASH>
+sudo reboot
+```
+Note:  
+    If \<HASH\> is ellipsised, the firmware will be the latest version.  
+    \<HASH\> is the full SHA string written in [Hexxeh/rpi-firmware] page.
