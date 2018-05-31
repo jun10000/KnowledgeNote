@@ -15,8 +15,10 @@
   https://azriton.github.io/2017/09/20/Raspberry-Pi%E5%9F%BA%E7%9B%A4%E3%81%AELED%E3%82%92%E6%B6%88%E7%81%AF%E3%81%99%E3%82%8B/
 - firmware/README at master · raspberrypi/firmware  
   https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README
-+ Systemdで自作スクリプトをデーモン化 | Divide et impera  
+- Systemdで自作スクリプトをデーモン化 | Divide et impera  
   https://glorificatio.org/archives/1965
+- systemd - ArchWiki  
+  https://wiki.archlinux.jp/index.php/Systemd
 + Raspberry Pi -RASPBIAN- のswapを無効化  
   https://qiita.com/michimaru/items/25608100f871a2a3cf58
 + Kernel building - Raspberry Pi Documentation  

@@ -1,6 +1,7 @@
 # Raspberry Pi 3 Type B
 [Hexxeh/rpi-firmware]: https://github.com/Hexxeh/rpi-firmware/commits/master
 [raspberrypi/firmware/boot/overlays/README]: https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README
+[systemd - ArchWiki]: https://wiki.archlinux.jp/index.php/Systemd
 
 ## Pin Layout
 Execute the command `pinout` to show the following result.
@@ -57,7 +58,34 @@ Directory (Red LED, Power): `/sys/class/leds/led1/`
   The value must be **0** or **MaxBrightness**.  
   The changed value **won't** be saved.
 - Current trigger value is parenthesized in `trigger`.  
-  The value must be included in the `trigger`.  
+  The value must be included in `trigger`.  
   The changed value **won't** be saved.
 - To save changed values permanently, edit `/boot/config.txt`.  
   Please refer to [raspberrypi/firmware/boot/overlays/README] page.
+
+## Daemon
+### Unit File
+- Directory
+    - `/usr/lib/systemd/system/`
+    - `/etc/systemd/system/` (For Administrator)
+- Naming Rule: `<DaemonName>.service`
+- Contents  
+    Here is the minimal template.
+    ```
+    [Unit]
+    Description=<DaemonName>
+    
+    [Service]
+    ExecStart=<ProgramPath>
+    
+    [Install]
+    #WantedBy=multi-user.target
+    ```
+    For details, see [systemd - ArchWiki] page.
+### Systemctl
+- Apply the daemon information changes: `sudo systemctl daemon-reload`
+- Start the daemon: `sudo systemctl start <DaemonName>`
+- Stop the daemon: `sudo systemctl stop <DaemonName>`
+- Restart the daemon: `sudo systemctl restart <DaemonName>`
+- Enable the daemon auto starting: `sudo systemctl enable <DaemonName>`
+- Disable the daemon auto starting: `sudo systemctl disable <DaemonName>`
