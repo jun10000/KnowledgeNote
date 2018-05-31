@@ -83,9 +83,16 @@ Directory (Red LED, Power): `/sys/class/leds/led1/`
     ```
     For details, see [systemd - ArchWiki] page.
 ### Systemctl
-- Apply the daemon information changes: `sudo systemctl daemon-reload`
+- Apply daemon information changes: `sudo systemctl daemon-reload`
 - Start the daemon: `sudo systemctl start <DaemonName>`
 - Stop the daemon: `sudo systemctl stop <DaemonName>`
 - Restart the daemon: `sudo systemctl restart <DaemonName>`
 - Enable the daemon auto starting: `sudo systemctl enable <DaemonName>`
 - Disable the daemon auto starting: `sudo systemctl disable <DaemonName>`
+
+## Swap
+If you want to change swap settings permanently, `insserv` package is required.
+- Enable swap temporary: `sudo dphys-swapfile swapon`
+- Disable swap temporary: `sudo dphys-swapfile swapoff`
+- Set to create swap on system starting: `insserv -dv dphys-swapfile`
+- Set to create no swap on system starting: `insserv -r dphys-swapfile`

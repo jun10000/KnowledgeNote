@@ -19,14 +19,16 @@
   https://glorificatio.org/archives/1965
 - systemd - ArchWiki  
   https://wiki.archlinux.jp/index.php/Systemd
-+ Raspberry Pi -RASPBIAN- のswapを無効化  
+- Raspberry Pi -RASPBIAN- のswapを無効化  
   https://qiita.com/michimaru/items/25608100f871a2a3cf58
+- insservの使い方  
+  https://qiita.com/pocket8137/items/9df9ef5ad93e7b220c42
++ Linuxパフォーマンス調査などで使うコマンドメモ  
+  https://qiita.com/toshihirock/items/0e0b20064730469e93e6
 + Kernel building - Raspberry Pi Documentation  
   https://www.raspberrypi.org/documentation/linux/kernel/building.md
 + Raspberry Pi 3とリアルタイムカーネル(1)[RT Preempt導入編] - アールテクニカ地下ガレージ  
   http://artteknika.hatenablog.com/entry/2016/08/23/142820
-+ Linuxパフォーマンス調査などで使うコマンドメモ  
-  https://qiita.com/toshihirock/items/0e0b20064730469e93e6
 
 ## Raspberry Pi + Ubuntu
 + ubuntu - gcc-arm-linux-gnueabi command not found - Stack Overflow  
