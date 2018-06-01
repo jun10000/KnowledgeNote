@@ -23,16 +23,10 @@
   https://qiita.com/michimaru/items/25608100f871a2a3cf58
 - insservの使い方  
   https://qiita.com/pocket8137/items/9df9ef5ad93e7b220c42
-+ Linuxパフォーマンス調査などで使うコマンドメモ  
+- Linuxパフォーマンス調査などで使うコマンドメモ  
   https://qiita.com/toshihirock/items/0e0b20064730469e93e6
-+ Kernel building - Raspberry Pi Documentation  
-  https://www.raspberrypi.org/documentation/linux/kernel/building.md
-+ Raspberry Pi 3とリアルタイムカーネル(1)[RT Preempt導入編] - アールテクニカ地下ガレージ  
-  http://artteknika.hatenablog.com/entry/2016/08/23/142820
-
-## Raspberry Pi + Ubuntu
-+ ubuntu - gcc-arm-linux-gnueabi command not found - Stack Overflow  
-  https://stackoverflow.com/questions/14180185/gcc-arm-linux-gnueabi-command-not-found
+- psコマンドで表示される内容について調べた  
+  https://qiita.com/toshihirock/items/565fe71d778d3ee36b96
 
 ## Raspberry Pi + MariaDB (MySQL) + Python
 + Raspberry PiでPythonからMySQLデータベースを扱う | MUDAなことをしよう。  

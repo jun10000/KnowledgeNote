@@ -96,3 +96,69 @@ If you want to change swap settings permanently, `insserv` package is required.
 - Disable swap temporary: `sudo dphys-swapfile swapoff`
 - Set to create swap on system starting: `insserv -dv dphys-swapfile`
 - Set to create no swap on system starting: `insserv -r dphys-swapfile`
+
+## Performance Survey Commands
+- `top`  
+  Shows CPU usage, memory usage, process list etc.  
+  It can sort by CPU usage etc.  
+  ```
+  top - 14:47:33 up 7 days, 23:32,  2 users,  load average: 0.99, 0.67, 0.68
+  Tasks: 135 total,   1 running,  93 sleeping,   0 stopped,   1 zombie
+  %Cpu(s): 19.1 us,  1.6 sy,  0.0 ni, 79.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+  KiB Mem :   949452 total,    71844 free,   436932 used,   440676 buff/cache
+  KiB Swap:        0 total,        0 free,        0 used.   495960 avail Mem 
+  
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND    
+   1286 pi        20   0  490336 165152  61044 S   2.6 17.4 307:50.77 chromium-b+
+    849 pi        20   0  683140 162900  76652 S   1.3 17.2 153:46.58 chromium-b+
+  12891 pi        20   0    7584   3292   2792 R   0.7  0.3   0:00.11 top        
+    447 root      20   0  145140  24848  12988 S   0.3  2.6  26:36.73 Xorg       
+  12286 www-data  20   0  139536   7320   2888 S   0.3  0.8   0:20.43 apache2    
+      1 root      20   0   28136   5692   4480 S   0.0  0.6   0:14.40 systemd    
+      2 root      20   0       0      0      0 S   0.0  0.0   0:00.46 kthreadd   
+      4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+
+      6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+
+      7 root      20   0       0      0      0 S   0.0  0.0   0:12.42 ksoftirqd/0
+  ...
+  ```
+- ps  
+  Shows process list.
+    - `ps`  
+      Shows only current user's processes.  
+      ```
+        PID TTY          TIME CMD
+      12872 pts/0    00:00:00 bash
+      13967 pts/0    00:00:00 ps
+      ```
+    - `ps ax`  
+      Shows all user's processes.  
+      ```
+        PID TTY      STAT   TIME COMMAND
+          1 ?        Ss     0:14 /sbin/init splash
+          2 ?        S      0:00 [kthreadd]
+          4 ?        I<     0:00 [kworker/0:0H]
+          6 ?        I<     0:00 [mm_percpu_wq]
+          7 ?        S      0:12 [ksoftirqd/0]
+          8 ?        I     14:19 [rcu_sched]
+          9 ?        I      0:00 [rcu_bh]
+         10 ?        S      0:00 [migration/0]
+         11 ?        S      0:00 [cpuhp/0]
+         12 ?        S      0:00 [cpuhp/1]
+      ...
+      ```
+    - `ps axu`  
+      Shows all user's processes and more.  
+      ```
+      USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+      root         1  0.0  0.5  28136  5692 ?        Ss    5月24   0:14 /sbin/init sp
+      root         2  0.0  0.0      0     0 ?        S     5月24   0:00 [kthreadd]
+      root         4  0.0  0.0      0     0 ?        I<    5月24   0:00 [kworker/0:0H
+      root         6  0.0  0.0      0     0 ?        I<    5月24   0:00 [mm_percpu_wq
+      root         7  0.0  0.0      0     0 ?        S     5月24   0:12 [ksoftirqd/0]
+      root         8  0.1  0.0      0     0 ?        I     5月24  14:19 [rcu_sched]
+      root         9  0.0  0.0      0     0 ?        I     5月24   0:00 [rcu_bh]
+      root        10  0.0  0.0      0     0 ?        S     5月24   0:00 [migration/0]
+      root        11  0.0  0.0      0     0 ?        S     5月24   0:00 [cpuhp/0]
+      root        12  0.0  0.0      0     0 ?        S     5月24   0:00 [cpuhp/1]
+      ...
+      ```
