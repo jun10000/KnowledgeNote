@@ -28,6 +28,10 @@
 - psコマンドで表示される内容について調べた  
   https://qiita.com/toshihirock/items/565fe71d778d3ee36b96
 
+## Raspberry Pi + Arduino
++ RaspberryPiとArduinoを連携する【USBシリアル編】 - uepon日々の備忘録  
+  http://uepon.hatenadiary.com/entry/2017/01/01/141220
+
 ## Raspberry Pi + MariaDB (MySQL) + Python
 + Raspberry PiでPythonからMySQLデータベースを扱う | MUDAなことをしよう。  
   http://make-muda.weblike.jp/2016/07/3550/
@@ -41,15 +45,25 @@
   http://raspi.tv/2013/how-to-use-interrupts-with-python-on-the-raspberry-pi-and-rpi-gpio-part-3
 
 ## Arduino
++ Arduino Reference  
+  https://www.arduino.cc/reference/en/
 + 8.Arduinoの動作構成 | | 大好きArduino  
   http://daisuki-arduino.com/8-arduino_kousei/
++ 性能測定実験(I/O)  
+  https://garretlab.web.fc2.com/arduino/lab/performance_io/index.html
++ フォトインタラプタの物体検出を割り込みで処理する - catalinaの備忘録  
+  http://catalina1344.hatenablog.jp/entry/2014/09/21/130153
++ パルスのエッジ割り込みとタイマー割り込みを使った計測に変更してみた。 – Arduinoで遊ぼう。  
+  http://barcelona.lomo.jp/wp/?p=197
++ Arduinoのタイマーライブラリ - miso-engine  
+  https://miso-engine.hatenablog.com/entry/2015/07/20/221014
 
 ## Apache
 + ApacheとPHPのインストール | Raspberry Pi用ソケットサーバーフレームワーク「HAL」 | Feijoa.jp  
   http://www.feijoa.jp/work/hal/apacheAndPhp/
 + Raspberry Pi2にWebサーバを構築し、LEDを点灯させる  
   https://qiita.com/aryoa/items/2c28b466e911a3dd101d
-+ [Apache] Options と AllowOverRide の設定値を改めて整理してみる | バシャログ。  
++ \[Apache\] Options と AllowOverRide の設定値を改めて整理してみる | バシャログ。  
   http://bashalog.c-brains.jp/10/11/16-121901.php
 
 ## Chromium
@@ -69,7 +83,7 @@
   https://docs.python.jp/3/library/subprocess.html#frequently-used-arguments
 + 18.8. signal — 非同期イベントにハンドラを設定する — Python 3.6.5 ドキュメント  
   https://docs.python.jp/3/library/signal.html
-+ [Python] 何度も調べてしまうリスト操作をまとめてみた - YoheiM .NET  
++ \[Python\] 何度も調べてしまうリスト操作をまとめてみた - YoheiM .NET  
   https://www.yoheim.net/blog.php?q=20150801
 + Python初心者によるPythonのいいところ、はまりどころのまとめ - Webtech Walker  
   http://webtech-walker.com/archive/2010/10/13191417.html
@@ -107,10 +121,28 @@
   https://www.quark.kj.yamagata-u.ac.jp/~hiroki/python/?id=15
 + 20ms以上の精度を求めるなら「time.perf_counter()」，それ以下で良いなら「time.process_time()」 | 粉末@それは風のように (日記)  
   https://funmatu.wordpress.com/2017/06/14/20ms%E4%BB%A5%E4%B8%8A%E3%81%AE%E7%B2%BE%E5%BA%A6%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E3%81%AA%E3%82%89%E3%80%8Ctime-perf_counter%E3%80%8D%EF%BC%8C%E3%81%9D%E3%82%8C%E4%BB%A5%E4%B8%8B%E3%81%A7/
++ Short introduction — pySerial 3.0 documentation  
+  https://pythonhosted.org/pyserial/shortintro.html
++ Pythonのwith構文と\_\_enter\_\_、\_\_exit\_\_ « DailyHckr  
+  http://hylom.net/2010/05/18/python_with_statemen/
++ with文はカンマ区切りで複数のコンテキストマネージャを渡せる - 十番目のムーサ  
+  http://d.hatena.ne.jp/psappho/20120802/1343840823
++ python3のbytes型とstr型の比較と変換方法 | Python Snippets  
+  https://python.civic-apps.com/python3-bytes-str-convert/
++ Pythonで文字列のスペース・タブ・改行を取り除くstripメソッドの使い方  
+  https://tonari-it.com/python-strip/
 
 ## Cython
 + Basic Tutorial — Cython 0.29a0 documentation  
   http://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
+
+## C++
++ C++の演算子の優先順位 - cppreference.com  
+  https://ja.cppreference.com/w/cpp/language/operator_precedence
++ C++の基礎 : アクセス制限  
+  https://www.s-cradle.com/developer/sophiaframework/tutorial/Cpp/access.html
++ C++ 値渡し、ポインタ渡し、参照渡しを使い分けよう  
+  https://qiita.com/agate-pris/items/05948b7d33f3e88b8967
 
 ## HTML/CSS/JavaScript
 + HTMLMediaElement - Web API インターフェイス | MDN  
@@ -154,10 +186,10 @@
 + setTimeout(...,0)などの使いドコロ  
   https://qiita.com/jkr_2255/items/17693ab77beea71a871c
 
+## YAML
++ \[フロントエンド\] Yamlというデータ構造に入門する - YoheiM .NET  
+  https://www.yoheim.net/blog.php?q=20170201
+
 ## GitHub Markdown
 + Markdown記法 チートシート  
   https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa
-
-## YAML
-+ [フロントエンド] Yamlというデータ構造に入門する - YoheiM .NET  
-  https://www.yoheim.net/blog.php?q=20170201
