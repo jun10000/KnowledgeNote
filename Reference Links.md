@@ -136,13 +136,15 @@
 + Basic Tutorial — Cython 0.29a0 documentation  
   http://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
 
-## C++
+## C/C++
 + C++の演算子の優先順位 - cppreference.com  
   https://ja.cppreference.com/w/cpp/language/operator_precedence
 + C++の基礎 : アクセス制限  
   https://www.s-cradle.com/developer/sophiaframework/tutorial/Cpp/access.html
 + C++ 値渡し、ポインタ渡し、参照渡しを使い分けよう  
   https://qiita.com/agate-pris/items/05948b7d33f3e88b8967
++ Arduino入門：変数の修飾子 | easy labo  
+  http://easylabo.com/2015/03/arduino/8321/
 
 ## HTML/CSS/JavaScript
 + HTMLMediaElement - Web API インターフェイス | MDN  
